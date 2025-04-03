@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\",
+  "WorkspaceRootPath": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\unity\\proyectofinal\\assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\assets\\scripts\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,23 +34,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MoverCamaraRaton.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\Assets\\Scripts\\MoverCamaraRaton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MoverCamaraRaton.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\Assets\\Scripts\\MoverCamaraRaton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MoverCamaraRaton.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBYAAACFAAAAAAAAAA==",
+              "Title": "Moneda.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Moneda.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Moneda.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Moneda.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Moneda.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCAAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T15:08:33.247Z",
+              "WhenOpened": "2025-04-03T20:54:25.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ManagerUI.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerUI.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManagerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:36:45.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoverCamaraRaton.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\MoverCamaraRaton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoverCamaraRaton.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\MoverCamaraRaton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoverCamaraRaton.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T15:08:33.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ControlPlayerMov.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControlPlayerMov.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
               "RelativeToolTip": "Assets\\Scripts\\ControlPlayerMov.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,12 +83,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "..\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
-              "RelativeToolTip": "..\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
+              "RelativeToolTip": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAAwI8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T09:30:28.975Z",

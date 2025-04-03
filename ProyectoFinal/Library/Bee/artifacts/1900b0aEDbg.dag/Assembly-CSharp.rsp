@@ -401,6 +401,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Script/BillboardScript.cs"
 "Assets/Scripts/ControlPlayerMov.cs"
+"Assets/Scripts/ManagerUI.cs"
+"Assets/Scripts/Moneda.cs"
 "Assets/Scripts/MoverCamaraRaton.cs"
 -langversion:9.0
 /deterministic
