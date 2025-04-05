@@ -399,11 +399,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/(LITE) Splash of Color - Unique Photogrammetry Plants/Script/BillboardScript.cs"
+"Assets/Importes/(LITE) Splash of Color - Unique Photogrammetry Plants/Script/BillboardScript.cs"
 "Assets/Scripts/ControlPlayerMov.cs"
 "Assets/Scripts/ManagerUI.cs"
 "Assets/Scripts/Moneda.cs"
+"Assets/Scripts/MonsterControlador.cs"
 "Assets/Scripts/MoverCamaraRaton.cs"
+"Assets/Scripts/SpawnearMonedas.cs"
 -langversion:9.0
 /deterministic
 /optimize-

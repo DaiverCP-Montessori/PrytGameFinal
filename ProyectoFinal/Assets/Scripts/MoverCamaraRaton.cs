@@ -6,19 +6,37 @@ public class MoverCamaraRaton : MonoBehaviour
     private float rotacionX = 0f;
     public float limitUp = 74f;
     public float limitDown = -90f;
+    public float posicionextra = 20f;
+    
+
+    /**Cambiar posicion de la cámara para evitar mostrar el modelo 3d
+     */
+    Vector3 posicionOrigen;
     float movConCamX;
     float movConCamY;
+    public float positionAdds;
 
 
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        posicionOrigen = transform.position;
+
     }
 
     void Update()
     {
-        movConCamX = Input.GetAxis("Mouse X") * sensibilidad;
+        if (ControlPlayerMov.instance.caminar)
+        {
+            transform.position = transform.position + transform.forward * positionAdds;
+        }
+        else
+        {
+            transform.position = posicionOrigen;
+        }
+
+            movConCamX = Input.GetAxis("Mouse X") * sensibilidad;
         movConCamY = Input.GetAxis("Mouse Y") * sensibilidad;
 
 

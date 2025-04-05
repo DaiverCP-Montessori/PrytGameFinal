@@ -3,22 +3,39 @@ using UnityEngine;
 
 public class ControlPlayerMov : MonoBehaviour
 {
+    public static ControlPlayerMov instance;
     public float velocidad = 5f;
     public float fuerzaDeSalto = 250f;
 
     private Rigidbody rb;
+    //Variables de movimentos por teclado 
     float movimientoX;
     float movimientoY;
+
+    //Controles 
+    public bool caminar = false;
     bool salto = false;
+    Animator animator;
 
+    
+    
 
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
         Controles();
+        Animacion();
     }
 
     void Controles()
@@ -29,10 +46,18 @@ public class ControlPlayerMov : MonoBehaviour
 
         movimientoY = Input.GetAxis("Vertical");
 
-         
+        if (movimientoX > 0 || movimientoY > 0)
+        {
+            caminar = true;
+        }
+        else
+        {
+            caminar = false;
+        }
 
-        Vector3 move = transform.right * movimientoX + transform.forward * movimientoY;
-        rb.MovePosition(rb.position + move * velocidad * Time.deltaTime);
+
+            Vector3 move = transform.right * movimientoX + transform.forward * movimientoY;
+            rb.MovePosition(rb.position + move * velocidad * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -53,6 +78,17 @@ public class ControlPlayerMov : MonoBehaviour
         salto = false;
     }
     
+    void Animacion()
+    {
+        if (caminar)
+        {
+            animator.SetBool("Correr", true);
+        }
+        if (!caminar)
+        {
+            animator.SetBool("Correr", false);
+        }
+    }
 
 
 

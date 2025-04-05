@@ -10,12 +10,12 @@ public class Moneda : MonoBehaviour
     private Color colorOriginal;
     public Light Luz;
     
-    private bool parpadear = false;
-
     void Start()
     {
         Luz.intensity = 0;
         materialOriginal = GetComponent<Renderer>().material;
+
+        InvokeRepeating("ActivarLuz", brilloTiempoRepeticion, brilloTiempoRepeticion);
 
     }
     void ActivarDestello()
