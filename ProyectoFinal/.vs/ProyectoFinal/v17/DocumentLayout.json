@@ -3,30 +3,28 @@
   "WorkspaceRootPath": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movercamararaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\importes\\(lite) splash of color - unique photogrammetry plants\\script\\billboardscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\importes\\(lite) splash of color - unique photogrammetry plants\\script\\billboardscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\VoladorEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\Goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BillboardScript.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Importes\\(LITE) Splash of Color - Unique Photogrammetry Plants\\Script\\BillboardScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Importes\\(LITE) Splash of Color - Unique Photogrammetry Plants\\Script\\BillboardScript.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Importes\\(LITE) Splash of Color - Unique Photogrammetry Plants\\Script\\BillboardScript.cs",
-              "RelativeToolTip": "Assets\\Importes\\(LITE) Splash of Color - Unique Photogrammetry Plants\\Script\\BillboardScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "VoladorEnemy.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\VoladorEnemy.cs",
+              "RelativeDocumentMoniker": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\VoladorEnemy.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\VoladorEnemy.cs",
+              "RelativeToolTip": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\VoladorEnemy.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T21:50:41.397Z",
+              "WhenOpened": "2025-04-06T13:46:19.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\Goblin.cs",
+              "RelativeDocumentMoniker": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\Goblin.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\Goblin.cs",
+              "RelativeToolTip": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\Enemigos\\Goblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:46:10.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerHealth.cs",
@@ -66,28 +77,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MonsterControlador.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\MonsterControlador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterControlador.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\MonsterControlador.cs",
               "RelativeToolTip": "Assets\\Scripts\\MonsterControlador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T21:02:11.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Moneda.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Moneda.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Moneda.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Moneda.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Moneda.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:54:25.833Z",
               "EditorCaption": ""
             },
             {
@@ -98,33 +96,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoverCamaraRaton.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\MoverCamaraRaton.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoverCamaraRaton.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T15:08:33.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ControlPlayerMov.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControlPlayerMov.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ControlPlayerMov.cs",
               "RelativeToolTip": "Assets\\Scripts\\ControlPlayerMov.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T17:40:09.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
               "RelativeToolTip": "..\\..\\Unity\\MiProyecto\\Assets\\Scrpts\\PlayerMovement.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T09:30:28.975Z",
               "EditorCaption": ""

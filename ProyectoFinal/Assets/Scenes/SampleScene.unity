@@ -119,6 +119,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &169798758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169798759}
+  - component: {fileID: 169798760}
+  m_Layer: 0
+  m_Name: ManoAtaque
+  m_TagString: Ataque
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &169798759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169798758}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.36975455, y: -0.6563847, z: 0.3065664, w: 0.58177125}
+  m_LocalPosition: {x: 0.07, y: 0.028, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1316833287}
+  m_LocalEulerAnglesHint: {x: -1.592, y: 262.232, z: -302.602}
+--- !u!65 &169798760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169798758}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 0.94677126, y: 0.33272648, z: 0.36354956}
+  m_Center: {x: -0.0485871, y: -0.044120833, z: 0.05868025}
 --- !u!1 &369500984
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
       propertyPath: m_Name
-      value: HumanMale_Character
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
       propertyPath: m_Controller
@@ -272,7 +329,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
-      insertIndex: 0
+      insertIndex: -1
       addedObject: {fileID: 963194228}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
@@ -283,7 +340,7 @@ PrefabInstance:
       addedObject: {fileID: 508145572}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 508145574}
+      addedObject: {fileID: 508145576}
   m_SourcePrefab: {fileID: 100100000, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
 --- !u!1 &508145570 stripped
 GameObject:
@@ -309,6 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   fuerzaDeSalto: 250
+  caminar: 0
 --- !u!54 &508145573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -336,7 +394,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!136 &508145574
+--- !u!136 &508145576
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -355,10 +413,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.90904236
-  m_Height: 1.9908998
+  m_Radius: 0.24290466
+  m_Height: 1.9606516
   m_Direction: 1
-  m_Center: {x: 0.0104522705, y: 0.9435893, z: -0.15420532}
+  m_Center: {x: -0.011871338, y: 0.9696742, z: -0.00970459}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,9 +539,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 2.587445
+  m_Height: 2.4878316
   m_Direction: 1
-  m_Center: {x: 0, y: 1.2873906, z: 0}
+  m_Center: {x: 0, y: 1.3371973, z: 0}
 --- !u!54 &874301172
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -509,8 +567,28 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &874301175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874301168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ece5106572fdd47bfff37c2b95bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 3
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  ani: {fileID: 0}
+  cronometro: 0
+  rutina: 0
+  grado: 0
+  velocidad: 1
+  atacar: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,8 +675,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.022, y: 1.631, z: 0.234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.021972656, y: 1.631, z: 0.598999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -634,7 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000166893
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -678,17 +756,14 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c43f05015b2ab2548821a3e26e861c9b, type: 2}
     - target: {fileID: 5866666021909216657, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-        'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform
-        'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightHandRing1'\n\tand
-        more ...\n\tFrom animation clip 'Mutant Breathing Idle'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6502182839619065283, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 169798759}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
       insertIndex: -1
@@ -696,6 +771,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 874301171}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874301175}
   m_SourcePrefab: {fileID: 100100000, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
 --- !u!1 &1303802948 stripped
 GameObject:
@@ -789,6 +867,11 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!4 &1316833287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6502182839619065283, guid: be45304c114e2784ca4ffc408135e6fb, type: 3}
+  m_PrefabInstance: {fileID: 1279305190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1660505419
 PrefabInstance:
   m_ObjectHideFlags: 0

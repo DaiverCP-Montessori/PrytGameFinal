@@ -17,9 +17,6 @@ public class ControlPlayerMov : MonoBehaviour
     bool salto = false;
     Animator animator;
 
-    
-    
-
     void Awake()
     {
         if (instance == null)
@@ -89,6 +86,7 @@ public class ControlPlayerMov : MonoBehaviour
             animator.SetBool("Correr", false);
         }
     }
+    
 
 
 

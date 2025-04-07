@@ -7,36 +7,42 @@ public class MoverCamaraRaton : MonoBehaviour
     public float limitUp = 74f;
     public float limitDown = -90f;
     public float posicionextra = 20f;
-    
+
 
     /**Cambiar posicion de la cámara para evitar mostrar el modelo 3d
-     */
+     
+    Vector3 lastpos;
     Vector3 posicionOrigen;
+    */
     float movConCamX;
     float movConCamY;
-    public float positionAdds;
+    //public float positionAdds = 1f;
+    Transform player;
 
-
+    void Awake()
+    {
+        if (player == null)
+        {
+            player = GameObject.Find("Player").transform;
+        }
+        //posicionOrigen = transform.position - player.position;
+    }
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        posicionOrigen = transform.position;
+        //posicionOrigen = transform.position;
 
     }
 
     void Update()
     {
-        if (ControlPlayerMov.instance.caminar)
-        {
-            transform.position = transform.position + transform.forward * positionAdds;
-        }
-        else
-        {
-            transform.position = posicionOrigen;
-        }
+        
+        //Actualiza la ultima posicion de la cámara de forma cosntante
+        //lastpos = transform.position;
 
-            movConCamX = Input.GetAxis("Mouse X") * sensibilidad;
+
+        movConCamX = Input.GetAxis("Mouse X") * sensibilidad;
         movConCamY = Input.GetAxis("Mouse Y") * sensibilidad;
 
 
