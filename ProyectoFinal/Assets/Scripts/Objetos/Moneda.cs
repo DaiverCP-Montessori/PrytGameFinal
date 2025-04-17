@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Moneda : MonoBehaviour
 {
@@ -12,9 +13,14 @@ public class Moneda : MonoBehaviour
     private Material material;
     private Color emissionOriginal;
     private bool activando = false;
-    /*
+    public float Radiodeteccion = 6f;
+    public GameObject monedaPrefB;
+    float crono = 0f;
+
+
     void Start()
     {
+        /*
         material = GetComponent<Renderer>().material;
 
         if (!material.HasProperty("_EmissionColor"))
@@ -28,8 +34,28 @@ public class Moneda : MonoBehaviour
         luzTenue.intensity = 0;
 
         InvokeRepeating("IniciarReflejo", intervalo, intervalo);
+        */
     }
 
+    void Update()
+    {   
+        
+        if (crono >= 8)
+        {
+            Vector3 posicionRandom = new Vector3(Random.Range(-10, 10),0, Random.Range(-10, 10));
+            Vector3 posicionFinal = transform.position + posicionRandom;
+            Instantiate(monedaPrefB, posicionFinal, Quaternion.identity);
+            crono = 0;
+        }
+       
+        else
+        {
+            crono += 1 * Time.deltaTime;
+            Debug.Log("Segundos de moneda nueva" + crono);
+            
+        }      
+    }
+    /*
     void IniciarReflejo()
     {
         if (!activando)
@@ -68,4 +94,10 @@ public class Moneda : MonoBehaviour
         activando = false;
     }
     */
+
+    public void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, Radiodeteccion);
+    }
 }

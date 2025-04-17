@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ataque
-  - ObjetInteract
+  - ObjectInteract
+  - ObjetoRecoger
+  - Moneda
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - UI
   - Player
   - Interactive
-  - 
+  - Suelo
   - 
   - 
   - 

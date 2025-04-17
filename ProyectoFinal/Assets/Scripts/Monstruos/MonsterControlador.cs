@@ -8,10 +8,14 @@ public class MonsterControler : MonoBehaviour
     Transform[] transforms;
     Vector3[] puntosMov;
     Vector3 postMov;
-    
+
+
+    Collider jugadorcoll;
+    Collider enemigo;
+    GameObject cajaAtaque;
 
     Rigidbody rb;
-    public float Radiodeteccion = 5f;
+    public float Radiodeteccion = 6f;
 
 
     public Quaternion angulo;
@@ -21,61 +25,49 @@ public class MonsterControler : MonoBehaviour
     public float grado;
     public float velocidad = 1f;
     public bool atacar;
+    public int danio = 15;
 
     GameObject player;
     Animator ani;
+
+
+    //Variable de fuerza hacia el suelo
+    bool suelo;
     
     //Variables ante la deteccion
     public float speedRotacion = 10f;
     public float rayLength = 6f;
     RaycastHit toque;
-    LayerMask jugador; 
+    LayerMask jugador;
 
-
-
-
-    void Awake()
-    {
-        /*
-        puntosMov = new Vector3[transforms.Length];
-        for (int i = 0; i < puntosMov.Length; i++)
-        {
-            puntosMov[i] = transforms[i].position;
-        }
-        postMov = puntosMov[0];*/
-    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         ani = GetComponent<Animator>();
         player = GameObject.Find("Player");
         jugador = LayerMask.GetMask("Player");
+        jugadorcoll = GetComponent<Collider>();
+        enemigo = player.GetComponent<Collider>();
+        //cajaAtaque = GameObject.Find("N");
+
+        //Para ignorar las colisiones excepto el modelo 3d 
+        //Physics.IgnoreCollision(jugadorcoll, enemigo);
     }
     void Update()
     {
         Comportamiento_enemigo();
     }
-    void Animacion()
+    void FixedUpdate()
     {
-
+        
     }
 
     public void Comportamiento_enemigo()
     {
         if (Vector3.Distance(transform.position, player.transform.position) > Radiodeteccion)
         {
-            ani.SetBool("correr", false);
-            //Contador por segundos
-            cronometro += 1 * Time.deltaTime;
-            if (cronometro >= 4)
-            {
-                //Opciones Random por numero entre el rango 0 - 2
-                rutina = Random.Range(0, 2);
-                //reinicio del cronometro
-                cronometro = 0;
-            }
             //Metodo de donde se encuentran dichas acciones al azar
-            AccionesATomar(rutina);
+            AccionesATomar();
         }
         else
         {
@@ -125,10 +117,23 @@ public class MonsterControler : MonoBehaviour
         }
     }
 
-    private void AccionesATomar(int rutina)
+    private void AccionesATomar()
     {
+        ani.SetBool("correr", false);
+        //Contador por segundos
+        cronometro += 1 * Time.deltaTime;
+        //Debug.Log("Crono = " + cronometro);
+        if (cronometro >= 4)
+        {
+            //Opciones Random por numero entre el rango 0 - 2
+            rutina = Random.Range(0, 2);
+            //reinicio del cronometro
+            cronometro = 0;
+        }
+
         switch (rutina)
         {
+            
             case 0:
                 ani.SetBool("Caminar", false);
                 break;
@@ -139,21 +144,19 @@ public class MonsterControler : MonoBehaviour
                 break;
             case 2:
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, angulo, 0.5f);
-                //transform.Translate(Vector3.forward * velocidad * Time.deltaTime);
                 //Mirar y corregir después
-                //
                 rb.MovePosition(transform.position + transform.forward * velocidad * Time.deltaTime);
+                //transform.Translate(Vector3.forward * velocidad * Time.deltaTime);
 
                 ani.SetBool("Caminar", true);
                 break;
         }
     }
 
-
-
     public void Atacar()
     {
         ani.SetBool("atacar", false);
+        SaludJugador.instance.TakeDamage(danio);
         atacar = false;
     }
 
