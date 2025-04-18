@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\objetos\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\objetos\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\jugador\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\objetos\\interactuarobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\interactuarobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\objetos\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\monstruos\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstruos\\monstercontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\objetos\\recogerobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\recogerobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|f:\\dam2\\multiplataforma\\proyecto\\proyectofinal\\assets\\scripts\\objetos\\detectraylimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\detectraylimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\jugador\\saludjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\saludjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\objetos\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\assets\\scripts\\jugador\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\controlplayermov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ControlPlayerMov.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Jugador\\ControlPlayerMov.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\ControlPlayerMov.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Jugador\\ControlPlayerMov.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\ControlPlayerMov.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAswIsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwIsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T13:33:07.859Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ManagerUI.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerUI.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManagerUI.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:31:06.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InteractuarObjeto.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\InteractuarObjeto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\InteractuarObjeto.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\InteractuarObjeto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetos\\InteractuarObjeto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:38:45.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SaludJugador.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Jugador\\SaludJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\SaludJugador.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Jugador\\SaludJugador.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\SaludJugador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:21:56.011Z"
+              "WhenOpened": "2025-04-17T14:21:56.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RecogerObjeto.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\RecogerObjeto.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\RecogerObjeto.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\RecogerObjeto.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objetos\\RecogerObjeto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DetectRayLimit.cs",
+              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\DetectRayLimit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\DetectRayLimit.cs",
+              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\DetectRayLimit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetos\\DetectRayLimit.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T21:35:56.553Z"
+              "WhenOpened": "2025-04-18T15:25:57.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MonsterControlador.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Monstruos\\MonsterControlador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Monstruos\\MonsterControlador.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Monstruos\\MonsterControlador.cs",
               "RelativeToolTip": "Assets\\Scripts\\Monstruos\\MonsterControlador.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAuwKMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:03:37.352Z"
+              "WhenOpened": "2025-04-16T18:03:37.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Moneda.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\Moneda.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Moneda.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\Moneda.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\Moneda.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T17:08:30.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Seleccion.cs",
               "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\Seleccion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Seleccion.cs",
               "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\Objetos\\Seleccion.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\Seleccion.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:08:20.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManagerUI.cs",
-              "DocumentMoniker": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerUI.cs",
-              "ToolTip": "F:\\DAM2\\Multiplataforma\\Proyecto\\ProyectoFinal\\Assets\\Scripts\\ManagerUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ManagerUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:06:05.483Z"
+              "WhenOpened": "2025-04-16T17:08:20.002Z",
+              "EditorCaption": ""
             }
           ]
         }

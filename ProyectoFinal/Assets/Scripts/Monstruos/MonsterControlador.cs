@@ -5,10 +5,6 @@ using UnityEngine.UIElements;
 public class MonsterControler : MonoBehaviour
 {   
     //Movimiento patrulla
-    Transform[] transforms;
-    Vector3[] puntosMov;
-    Vector3 postMov;
-
 
     Collider jugadorcoll;
     Collider enemigo;

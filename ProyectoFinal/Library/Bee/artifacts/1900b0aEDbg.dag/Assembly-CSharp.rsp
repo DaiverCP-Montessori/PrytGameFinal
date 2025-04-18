@@ -405,6 +405,7 @@
 "Assets/Scripts/ManagerUI.cs"
 "Assets/Scripts/Monstruos/MonsterControlador.cs"
 "Assets/Scripts/MoverCamaraRaton.cs"
+"Assets/Scripts/Objetos/DetectRayLimit.cs"
 "Assets/Scripts/Objetos/InteractuarObjeto.cs"
 "Assets/Scripts/Objetos/Moneda.cs"
 "Assets/Scripts/Objetos/RecogerObjeto.cs"

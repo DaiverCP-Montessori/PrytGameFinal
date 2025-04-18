@@ -2,17 +2,30 @@ using UnityEngine;
 
 public class Seleccion : MonoBehaviour
 {
+    public static Seleccion instance;
     LayerMask mask;
-
-    
     public float distancia = 1.5f;
     public Texture2D puntero;
-    public GameObject texto;
+    GameObject texto;
+    GameObject textoRecoger;
     GameObject ultimoReconocido = null;
     void Start()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        if (texto == null)
+        {
+            texto = GameObject.Find("TextoDetectar");
+        }
+        if (textoRecoger == null)
+        {
+            textoRecoger = GameObject.Find("TextoRecoger");
+        }
         mask = LayerMask.GetMask("Interactive");
         texto.SetActive(false);
+        textoRecoger.SetActive(false);
     }
     void Update()
     {
@@ -26,10 +39,27 @@ public class Seleccion : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                     toque.collider.transform.GetComponent<InteractuarObjeto>().ActivarObjeto();
+
+                    toque.collider.transform.GetComponent<InteractuarObjeto>().ActivarObjeto();
                 }
             }
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * distancia, Color.red);
+            if (toque.collider.tag == "Moneda")
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    toque.collider.transform.GetComponent<InteractuarObjeto>().ActivarObjeto();
+                    Debug.Log("Moneda Añadida");
+                    ManagerUI.instance.AniadirMoneda(1);
+                    //Para condiderar con animacion
+                    /*InteractuarObjeto eliminarConAnimacion = toque.collider.transform.GetComponent<InteractuarObjeto>();
+
+                    if (eliminarConAnimacion != null)
+                    {
+                        StartCoroutine(eliminarConAnimacion.ActivarObjeto());
+                    }*/
+                }
+            }
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * distancia, Color.red);
         }
         else
         {
@@ -57,11 +87,19 @@ public class Seleccion : MonoBehaviour
         GUI.DrawTexture(rect, puntero);
         if (ultimoReconocido)
         {
-            texto.SetActive(true);
+            if (ultimoReconocido.CompareTag("Moneda"))
+            {
+                textoRecoger.SetActive(true);
+            }
+            else
+            {
+                texto.SetActive(true);
+            }
         }
         else
         {
-            texto.SetActive(false);  
+                textoRecoger.SetActive(false);
+                texto.SetActive(false);
         }
     }
 
