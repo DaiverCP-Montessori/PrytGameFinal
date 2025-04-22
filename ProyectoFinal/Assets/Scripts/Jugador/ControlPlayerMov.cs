@@ -22,6 +22,7 @@ public class ControlPlayerMov : MonoBehaviour
     bool Iscorrer = false;
     bool recuperado = false;
     bool cansado = false;
+    public bool recibeDanio = false;
     float cronomRecuEstamina;
     float rayLengt = 0.30f;
     public float tiempoRecuperacion = 5f;
@@ -93,7 +94,6 @@ public class ControlPlayerMov : MonoBehaviour
     }
     private void InputCorrer()
     {
-
         Iscorrer = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         //Controlar el detector del shift para que la recuperación funcione aunque se presione dicho boton
         //velocidadAtual = Iscorrer ? velCorrer : velocidad;
@@ -168,8 +168,10 @@ public class ControlPlayerMov : MonoBehaviour
     {
         if (colic.CompareTag("Ataque"))
         {
+            recibeDanio = true;
             Debug.Log("Daño");
         }
+        recibeDanio = false;
     }
 
     public void Ray()

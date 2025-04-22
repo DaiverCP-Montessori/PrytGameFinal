@@ -2,16 +2,6 @@ using UnityEngine;
 
 public class DetectRayLimit : MonoBehaviour {
 
-
-    void Start()
-    {
-
-    }
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider objeto)
     {
         if (objeto.CompareTag("Player"))

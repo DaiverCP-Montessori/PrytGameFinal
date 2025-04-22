@@ -27,7 +27,7 @@ public class SpawnearMonedas : MonoBehaviour
             else
             {
                 crono += 1 * Time.deltaTime;
-                Debug.Log("Segundos de moneda nueva" + crono);
+                //Debug.Log("Segundos de moneda nueva" + crono);
 
             }
         }

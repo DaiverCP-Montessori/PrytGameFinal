@@ -2,7 +2,7 @@ using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class MonsterControler : MonoBehaviour
+public class MonsterControler : MonoBehaviour, EnvioDanioACaja
 {   
     //Movimiento patrulla
 
@@ -33,7 +33,7 @@ public class MonsterControler : MonoBehaviour
     //Variables ante la deteccion
     public float speedRotacion = 10f;
     public float rayLength = 6f;
-    RaycastHit toque;
+    
     LayerMask jugador;
 
     void Start()
@@ -62,14 +62,14 @@ public class MonsterControler : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, player.transform.position) > Radiodeteccion)
         {
-            //Metodo de donde se encuentran dichas acciones al azar
-            AccionesATomar();
+                //Metodo de donde se encuentran dichas acciones al azar
+                AccionesATomar();
         }
         else
         {
-            if (Vector3.Distance(transform.position, player.transform.position) > 1 && !atacar)
+            if (Vector3.Distance(transform.position, player.transform.position) > 2f && !atacar)
             {
-                RaycastHit hit;
+                RaycastHit toque;
                 Vector3 direction = player.transform.position - transform.position;
                 direction.y = 0; // Aseguramos que sea horizontal
 
@@ -78,10 +78,10 @@ public class MonsterControler : MonoBehaviour
 
                 //Trazamos el rayo comenzando desde la posicion del monstruo la direccion indicada por la varibale "direccion", con el
                 //proposito de que toque el rayo al objeto e indicamos a que capa de que objeto queremos que toque
-                if (Physics.Raycast(transform.position, direction.normalized,out hit, rayLength, jugador))
+                if (Physics.Raycast(transform.position, direction.normalized, out toque, rayLength, jugador))
                 {
                     //Y si el objeto con el cual llega a chocar el rayo coincide con el objeto indicadada ejecutará lo demás
-                    if (hit.collider.gameObject == player)
+                    if (toque.collider.gameObject == player)
                     {
                         //Indicamos la posicion del personaje
                         var lookPos = player.transform.position - transform.position;
@@ -92,23 +92,19 @@ public class MonsterControler : MonoBehaviour
                         //y lo giramos a una velocidad de 10
                         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, speedRotacion);
                         /*Me permite localizar el objetivo y se mueve hasta el jugador, eviatando que se vaya en otra dirección*/
-                        Vector3 playerLocate = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
-                        rb.MovePosition(Vector3.MoveTowards(transform.position, playerLocate, velocidad * Time.deltaTime));
-                        ani.SetBool("Caminar", false);
-                        ani.SetBool("correr", true);
-                        ani.SetBool("atacar", false);
+                    Vector3 playerLocate = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+                    rb.MovePosition(Vector3.MoveTowards(transform.position, playerLocate, velocidad * Time.deltaTime));
+                    ani.SetBool("Caminar", false);
+                    ani.SetBool("correr", true);
+                    ani.SetBool("atacar", false);
                     }
                 }
-               
+
             }
             else
             {
-                ani.SetBool("Caminar", false);
-                ani.SetBool("correr", false);
-                
-                atacar = true;
-                ani.SetBool("atacar", true);
-                
+                Atacar();
+
             }
         }
     }
@@ -149,11 +145,19 @@ public class MonsterControler : MonoBehaviour
         }
     }
 
-    public void Atacar()
+    public void AtaqueTerminado()
     {
         ani.SetBool("atacar", false);
-        SaludJugador.instance.TakeDamage(danio);
         atacar = false;
+    }
+
+    public void Atacar()
+    {
+        ani.SetBool("Caminar", false);
+        ani.SetBool("correr", false);
+
+        atacar = true;
+        ani.SetBool("atacar", true);
     }
 
     
@@ -163,4 +167,8 @@ public class MonsterControler : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, Radiodeteccion);
     }
 
+    public int ObtenerDanio()
+    {
+        return danio;
+    }
 }

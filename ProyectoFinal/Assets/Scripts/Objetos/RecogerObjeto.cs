@@ -4,13 +4,40 @@ using UnityEngine;
 public class RecogerObjeto : MonoBehaviour
 {
     public GameObject handpoint;
-
+    public RecogerObjeto instance;
     private GameObject pickedObject = null;
     void Start()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
     }
     void Update()
+    {
+        Soltar();
+    }
+
+    private void OnTriggerStay(Collider objeto)
+    {
+        if (objeto.gameObject.CompareTag("ObjetoRecoger"))
+        {
+            if (Input.GetKey("e") && pickedObject == null)
+            {
+                objeto.GetComponent<Rigidbody>().useGravity = false;
+
+                objeto.GetComponent<Rigidbody>().isKinematic = true;
+
+                objeto.transform.position = handpoint.transform.position;
+
+                objeto.gameObject.transform.SetParent(handpoint.gameObject.transform);
+
+                pickedObject = objeto.gameObject;
+            }
+        }
+    }
+
+    public void Soltar()
     {
         if (pickedObject != null)
         {
@@ -23,25 +50,6 @@ public class RecogerObjeto : MonoBehaviour
                 pickedObject.gameObject.transform.SetParent(null);
 
                 pickedObject = null;
-            }
-        }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("ObjetoRecoger"))
-        {
-            if (Input.GetKey("e") && pickedObject == null)
-            {
-                other.GetComponent<Rigidbody>().useGravity = false;
-
-                other.GetComponent<Rigidbody>().isKinematic = true;
-
-                other.transform.position = handpoint.transform.position;
-
-                other.gameObject.transform.SetParent(handpoint.gameObject.transform);
-
-                pickedObject = other.gameObject;
             }
         }
     }
